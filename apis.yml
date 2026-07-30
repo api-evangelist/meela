@@ -1,9 +1,29 @@
 aid: meela
 name: Meela
-description: 'Meela is a company surfaced as a portfolio company of bain-capital-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Meela is an AI voice companion and voice-based ride service built for older
+  adults, backed by Bain Capital Ventures. Members connect through scheduled
+  phone calls with no app, device, or subscription required — Meela calls on a
+  chosen schedule, remembers names, preferences, and past conversations, and
+  shares select privacy-conscious insights with caregivers. A "Meela for
+  Business" offering brings the same companionship to senior living facilities
+  with care-team dashboards, mood/engagement alerts, and EHR documentation, and
+  the company advertises HIPAA and SOC 2 compliance. Meela publishes only a
+  consumer marketing site and a member sign-in portal; it exposes no public
+  developer API, documentation, or SDK surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/meela/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67f527c77d33c021a9560e39/6806c1a795d0fe2ba6b30d2a_seo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai Apps
+- Artificial Intelligence
+- Voice AI
+- AI Companion
+- Senior Care
+- Elder Care
+- Health
+- Wellness
+- Transportation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.meela.ai/
+- type: Pricing
+  url: https://www.meela.ai/pricing
+- type: SignUp
+  url: https://rides.meela.ai/auth/sign-in
+- type: TermsOfService
+  url: https://www.meela.ai/consumer-terms-of-use
+- type: PrivacyPolicy
+  url: https://www.meela.ai/privacy-policy
+- type: Support
+  url: mailto:support@meela.ai
+- type: HelpCenter
+  url: https://www.meela.ai/frequently-asked-questions
+- type: Blog
+  url: https://www.meela.ai/news
+- type: DomainSecurity
+  url: security/meela-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
